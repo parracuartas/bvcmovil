@@ -1,0 +1,4497 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files (x86)\REM 1.2.2\xml\REM_1_2_2.dtd">
+<rem:requirementsProject
+xmlns:rem="http://rem.lsi.us.es">
+<rem:name>Requisitos</rem:name>
+<rem:c_requirementsSpecification oid = "CRS-0001">
+<rem:name>Documento de Requisitos del Sistema BVC Móvil</rem:name>
+<rem:version>
+<rem:major>2</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+	 <rem:preparedFor organizations = "ORG-0002 "/>
+	 <rem:preparedBy organizations = "ORG-0001 "/>
+<rem:section
+ oid = "SEC-0001">
+<rem:name>
+Organizaciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:organization
+ oid = "ORG-0001">
+<rem:name>
+Parra &amp; Cuartas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Equipo desarrollador del proyecto</rem:comments>
+<rem:address><rem:tbd/></rem:address>
+<rem:telephone><rem:tbd/></rem:telephone>
+<rem:fax><rem:tbd/></rem:fax>
+</rem:organization>
+<rem:organization
+ oid = "ORG-0002">
+<rem:name>
+Universidad EAFIT</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Organización encargada de asesorar el proyecto</rem:comments>
+<rem:address><rem:tbd/></rem:address>
+<rem:telephone><rem:tbd/></rem:telephone>
+<rem:fax><rem:tbd/></rem:fax>
+</rem:organization>
+</rem:section>
+<rem:section
+ oid = "SEC-0002">
+<rem:name>
+Stakeholders</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+<rem:stakeholder
+ oid = "STK-0001">
+<rem:name>
+Hans Parra</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0001"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0002">
+<rem:name>
+Juan Cuartas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0001"/>
+</rem:stakeholder>
+</rem:section>
+<rem:section
+ oid = "SEC-0005">
+<rem:name>
+Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+<rem:objective
+ oid = "OBJ-0001">
+<rem:name>
+Administración de portafolios en dispositivos móviles</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir la administración de portafolios de inversión en la <rem:ref oid="GLO-0005">BVC</rem:ref> (Bolsa de Valores de Colombia), obteniendo información sobre el valor de las acciones en tiempo real y a través de dispositivos móviles.</rem:description>
+</rem:objective>
+</rem:section>
+<rem:section
+ oid = "SEC-0003">
+<rem:name>
+Requisitos Funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+<rem:functionalRequirement
+ oid = "FRQ-0011">
+<rem:name>
+Administración de maestros</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir gestionar a través de una interfaz web todos los maestros de información (mercados, acciones, comisionistas, etc.)</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0002">
+<rem:name>
+Creación de portafolios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir la creación de uno o varios portafolios de inversión a cada <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0003">
+<rem:name>
+Administración de <rem:ref oid="GLO-0009">capital</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir administrar a los inversionistas el <rem:ref oid="GLO-0009">capital</rem:ref> de cada <rem:ref oid="GLO-0006">portafolio</rem:ref> a través de depósitos y retiros. </rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0004">
+<rem:name>
+Órdenes de compra</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir a cada <rem:ref oid="GLO-0007">inversionista</rem:ref> realizar ordenes de compra de acciones en cada uno de sus portafolios.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0005">
+<rem:name>
+Órdenes de venta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir a cada <rem:ref oid="GLO-0007">inversionista</rem:ref> realizar ordenes de venta de acciones en cada uno de sus portafolios. </rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0006">
+<rem:name>
+Administración de repos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Este requisito no es vital para una primera versión del sistema, quedaría muy bien para una siguiente vesión evolutiva.</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir a cada <rem:ref oid="GLO-0007">inversionista</rem:ref> realizar transacciones <rem:ref oid="GLO-0002">repo</rem:ref> en cada uno de sus portafolios. </rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0007">
+<rem:name>
+Administración de dividendos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Este requisito no es vital para una primera versión del sistema, quedaría muy bien para una siguiente vesión evolutiva.</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir a cada <rem:ref oid="GLO-0007">inversionista</rem:ref> especificar los dividendos a los que tienen derecho las acciones matriculadas en sus portafolios.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0008">
+<rem:name>
+Creación del <rem:ref oid="GLO-0015">estado financiero</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+calcular el <rem:ref oid="GLO-0015">estado financiero</rem:ref> de cada <rem:ref oid="GLO-0006">portafolio</rem:ref> basado en los depósitos y retiros de <rem:ref oid="GLO-0009">capital</rem:ref>, las compras y ventas de acciones, los repos y dividendos de los mismos.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0009">
+<rem:name>
+Sincronización de información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+sincronizar la información generada en los dispositivos móviles hacia la nube, en la cual se almacenará los datos de los usuarios, mercados, precios de las acciones, comisionistas y portafolios de cada <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0010">
+<rem:name>
+Actualización del precio de las acciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+actualizar el valor de cada <rem:ref oid="GLO-0014">acción</rem:ref> en tiempo real de acuerdo a los valores dados por el mercado.</rem:description>
+</rem:functionalRequirement>
+</rem:section>
+<rem:section
+ oid = "SEC-0004">
+<rem:name>
+Requisitos no Funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0001">
+<rem:name>
+Portabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+ser multiplataforma (IOS, Android, Windows Phone, BlackBerry OS)</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0002">
+<rem:name>
+Autentificacion</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+restringir por usuario y contraseña el acceso al sistema.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0003">
+<rem:name>
+Fiabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+precisar de una alta disponibilidad en función de la importancia estratégica de las tareas que realiza, es decir, debe presentar un funcionamiento optimo aun cuando se haya producido una avería en alguno de sus componentes.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0004">
+<rem:name>
+Copia de seguridad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+hacer periódicamente copias de seguridad de los datos, para evitar  que nos pueda ocurrir algun error de integridad en la informacion.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0005">
+<rem:name>
+Facilidad de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+presentar una interfaz amigable e intuitiva que permita a los usuarios operarlo de una manera optima.</rem:description>
+</rem:nonFunctionalRequirement>
+</rem:section>
+<rem:section
+ oid = "SEC-0010">
+<rem:name>
+Requisitos de información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2013</rem:year>
+<rem:month>2</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+<rem:informationRequirement
+ oid = "IRQ-0001">
+<rem:name>
+Órden de compra</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2013</rem:year>
+<rem:month>2</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+órdenes de compra de acciones</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>1</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>1</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0258">
+<rem:description>
+Id</rem:description>
+<rem:comments>
+Numérico (10). Identificador único de la orden asignado automáticamente por el sistema.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0312">
+<rem:description>
+Fecha transaccion</rem:description>
+<rem:comments>
+Date (dd/MM/yyyy HH:mm). Fecha de la transacción colocada automáticamente por el sistema.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0292">
+<rem:description>
+<rem:ref oid="GLO-0006">Portafolio</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id del <rem:ref oid="GLO-0006">portafolio</rem:ref> en el que se generará la <rem:ref oid="GLO-0012">orden de compra</rem:ref>. Es una referencia foránea a la tabla de Portafolios.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0259">
+<rem:description>
+Fecha inicial</rem:description>
+<rem:comments>
+Date (dd/MM/yyyy HH:mm). Fecha inicial a partir de la cual la orden tendrá validés.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0260">
+<rem:description>
+Fecha final</rem:description>
+<rem:comments>
+Date (dd/MM/yyyy HH:mm). Fecha final hasta la cual la orden tendrá validés</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0261">
+<rem:description>
+<rem:ref oid="GLO-0014">Acción</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id de la <rem:ref oid="GLO-0014">acción</rem:ref> comprada. Es una referencia foránea a la tabla de Acciones.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0262">
+<rem:description>
+Cantidad</rem:description>
+<rem:comments>
+Numérico (10). Cantidad de acciones ordenadas.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0263">
+<rem:description>
+Valor bruto unitario</rem:description>
+<rem:comments>
+Float (20). Valor unitario de cada <rem:ref oid="GLO-0014">acción</rem:ref>.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0264">
+<rem:description>
+Valor neto unitario</rem:description>
+<rem:comments>
+Float (20). Valor unitario real de cada <rem:ref oid="GLO-0014">acción</rem:ref>. Este valor es calculado automáticamente por el sistema luego de calcular el total de la orden y es igual a Total / Cantidad.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0265">
+<rem:description>
+Subtotal</rem:description>
+<rem:comments>
+Float (20). Subtotal calculado automáticamente por el sistema y es igual a Cantidad * Valor bruto unitario.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0266">
+<rem:description>
+Porcentaje comisión</rem:description>
+<rem:comments>
+Float (5). Es el porcentaje a pagarle al <rem:ref oid="GLO-0008">comisionista</rem:ref> sobre el subtotal de la orden.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0267">
+<rem:description>
+Valor comisión</rem:description>
+<rem:comments>
+Float (20). Es el valor real de la comisión calculado automáticamente por el sistema y es igual a Subtotal * Porcentaje comisión.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0268">
+<rem:description>
+Porcentaje impuestos</rem:description>
+<rem:comments>
+Float (5). Es el porcentaje a pagarle al gobierno sobre el valor de la comisión.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0269">
+<rem:description>
+Valor impuestos</rem:description>
+<rem:comments>
+Float (20). Es el valor real de los impuestos calculado automáticamente por el sistema y es igual a Valor comisión * Porcentaje impuestos.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0270">
+<rem:description>
+Gastos</rem:description>
+<rem:comments>
+Float (20). Son gastos adicionales que genera la transacción como por ejemplo papelería.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0271">
+<rem:description>
+Total</rem:description>
+<rem:comments>
+Float (20). Es el valor total de la orden que debe pagar el <rem:ref oid="GLO-0007">inversionista</rem:ref> y es igual a Subtotal + Valor comisión + Valor impuestos + Valor gastos</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0272">
+<rem:description>
+Observaciones</rem:description>
+<rem:comments>
+String (500). Observaciones adicionales ingresadas por el <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0273">
+<rem:description>
+Estado</rem:description>
+<rem:comments>
+Numérico (1). Estado actual de la orden, el cual es administrado internamente por el sistema. Puede tomar los siguientes valores: 1 = PENDIENTE, 2 = EJECUTADA y 3 = CANCELADA.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0314">
+<rem:description>
+<rem:ref oid="GLO-0007">Inversionista</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id del <rem:ref oid="GLO-0007">inversionista</rem:ref> que genero la orden. Es una referencia foránea a la tabla de Inversionistas.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0274">
+<rem:description>
+<rem:ref oid="GLO-0016">Trader</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id del <rem:ref oid="GLO-0016">trader</rem:ref> asignado automáticamente por el sistema para procesar la transacción. Es una referencia foránea a la tabla de Traders.</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0002">
+<rem:name>
+Órden de venta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2013</rem:year>
+<rem:month>2</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+órdenes de compra de acciones</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>1</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>1</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0315">
+<rem:description>
+Id</rem:description>
+<rem:comments>
+Numérico (10). Identificador único de la orden asignado automáticamente por el sistema.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0316">
+<rem:description>
+Fecha transaccion</rem:description>
+<rem:comments>
+Date (dd/MM/yyyy HH:mm). Fecha de la transacción colocada automáticamente por el sistema.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0317">
+<rem:description>
+<rem:ref oid="GLO-0006">Portafolio</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id del <rem:ref oid="GLO-0006">portafolio</rem:ref> en el que se generará la <rem:ref oid="GLO-0013">orden de venta</rem:ref>. Es una referencia foránea a la tabla de Portafolios.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0318">
+<rem:description>
+Fecha inicial</rem:description>
+<rem:comments>
+Date (dd/MM/yyyy HH:mm). Fecha inicial a partir de la cual la orden tendrá validés.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0319">
+<rem:description>
+Fecha final</rem:description>
+<rem:comments>
+Date (dd/MM/yyyy HH:mm). Fecha final hasta la cual la orden tendrá validés</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0320">
+<rem:description>
+<rem:ref oid="GLO-0014">Acción</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id de la <rem:ref oid="GLO-0014">acción</rem:ref> comprada. Es una referencia foránea a la tabla de Acciones.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0321">
+<rem:description>
+Cantidad</rem:description>
+<rem:comments>
+Numérico (10). Cantidad de acciones ordenadas.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0322">
+<rem:description>
+Valor bruto unitario</rem:description>
+<rem:comments>
+Float (20). Valor unitario de cada <rem:ref oid="GLO-0014">acción</rem:ref>.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0323">
+<rem:description>
+Valor neto unitario</rem:description>
+<rem:comments>
+Float (20). Valor unitario real de cada <rem:ref oid="GLO-0014">acción</rem:ref>. Este valor es calculado automáticamente por el sistema luego de calcular el total de la orden y es igual a Total / Cantidad.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0324">
+<rem:description>
+Subtotal</rem:description>
+<rem:comments>
+Float (20). Subtotal calculado automáticamente por el sistema y es igual a Cantidad * Valor bruto unitario.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0325">
+<rem:description>
+Porcentaje comisión</rem:description>
+<rem:comments>
+Float (5). Es el porcentaje a pagarle al <rem:ref oid="GLO-0008">comisionista</rem:ref> sobre el subtotal de la orden.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0326">
+<rem:description>
+Valor comisión</rem:description>
+<rem:comments>
+Float (20). Es el valor real de la comisión calculado automáticamente por el sistema y es igual a Subtotal * Porcentaje comisión.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0327">
+<rem:description>
+Porcentaje impuestos</rem:description>
+<rem:comments>
+Float (5). Es el porcentaje a pagarle al gobierno sobre el valor de la comisión.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0328">
+<rem:description>
+Valor impuestos</rem:description>
+<rem:comments>
+Float (20). Es el valor real de los impuestos calculado automáticamente por el sistema y es igual a Valor comisión * Porcentaje impuestos.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0329">
+<rem:description>
+Gastos</rem:description>
+<rem:comments>
+Float (20). Son gastos adicionales que genera la transacción como por ejemplo papelería.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0330">
+<rem:description>
+Total</rem:description>
+<rem:comments>
+Float (20). Es el valor total de la orden que debe pagar el <rem:ref oid="GLO-0008">comisionista</rem:ref> y es igual a Subtotal - Valor comisión - Valor impuestos - Valor gastos</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0331">
+<rem:description>
+Observaciones</rem:description>
+<rem:comments>
+String (500). Observaciones adicionales ingresadas por el <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0332">
+<rem:description>
+Estado</rem:description>
+<rem:comments>
+Numérico (1). Estado actual de la orden, el cual es administrado internamente por el sistema. Puede tomar los siguientes valores: 1 = PENDIENTE, 2 = EJECUTADA y 3 = CANCELADA.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0333">
+<rem:description>
+<rem:ref oid="GLO-0007">Inversionista</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id del <rem:ref oid="GLO-0007">inversionista</rem:ref> que genero la orden. Es una referencia foránea a la tabla de Inversionistas.</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0334">
+<rem:description>
+<rem:ref oid="GLO-0016">Trader</rem:ref></rem:description>
+<rem:comments>
+Numérico (10). Id del <rem:ref oid="GLO-0016">trader</rem:ref> asignado automáticamente por el sistema para procesar la transacción. Es una referencia foránea a la tabla de Traders.</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+</rem:section>
+<rem:section
+ oid = "SEC-0008">
+<rem:name>
+Actores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>7 </rem:number>
+<rem:actor
+ oid = "ACT-0004">
+<rem:name>
+Usuario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>un usuario genérico del sistema, el cual puede ser un Administrador, un <rem:ref oid="GLO-0007">Inversionista</rem:ref> o un <rem:ref oid="GLO-0016">Trader</rem:ref>.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0001">
+<rem:name>
+Administrador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>el administrador del sistema, encargado de administrar los diferentes maestros y crear los usuarios de la aplicación.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0002">
+<rem:name>
+<rem:ref oid="GLO-0007">Inversionista</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>el usuario encargado de administrar los portafolios de inversión desde los dispositivos móviles.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+<rem:ref oid="GLO-0016">Trader</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>la persona encargada de procesar las órdenes de compra y venta generadas por los inversionistas.</rem:actorRole>
+</rem:actor>
+</rem:section>
+<rem:section
+ oid = "SEC-0007">
+<rem:name>
+Casos de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>8 </rem:number>
+<rem:useCase
+ oid = "UC-0013">
+<rem:name>
+Ingresar al sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un usuario accede a la aplicación a través del formulario de login. Este escenario aplica tanto para el Sistema Web, como para el Sistema Móvil.</rem:triggeringEvent>
+<rem:precondition>
+El Login debe existir, la Clave debe ser correcta y el usuario se debe encontrar en estado Activo</rem:precondition>
+<rem:postcondition>
+El sistema creará un log de acceso con los datos de la petición y almacenará las credenciales del usuario logueado en la sesión actual</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0109">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+ingresa la URL principal de la aplicación a través de su navegador Web</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0106">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra el formulario de inicio, presentando el campo Login, Clave y el botón &quot;Ingresar&quot;</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0098">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+digita su Login y su Clave y hace click en el boton &quot;Ingresar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0102">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el Login exista, que la Clave sea correcta y que el usuario se encuentre Activo</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0021">
+<rem:condition>
+el Login no existe</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;El Login no existe&quot; y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0023">
+<rem:condition>
+la Clave es incorrecta</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;La Clave es incorrecta&quot; y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0024">
+<rem:condition>
+el usuario se encuentra Inactivo</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;Usted se encuentra inactivo en nuestro Sistema&quot;</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0103">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+almacena en el log de accesos la siguiente informacion: Usuario, Fecha, Hora, Ip, Navegador y Sistema Operativo de la petición</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0108">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+almacena las credenciales del usuario en la sesión actual</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0104">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+hace una redirección a la página principal del aplicativo, mostrando las opciones a las que tiene acceso el usuario de acuerdo a su Perfil</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0004">
+<rem:name>
+Crear <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0007">inversionista</rem:ref> desea crear un nuevo <rem:ref oid="GLO-0006">portafolio</rem:ref> de inversión desde su dispositivo móvil.</rem:triggeringEvent>
+<rem:precondition>
+El nombre del <rem:ref oid="GLO-0006">portafolio</rem:ref> debe ser único para el <rem:ref oid="GLO-0007">inversionista</rem:ref></rem:precondition>
+<rem:postcondition>
+Se creará un nuevo <rem:ref oid="GLO-0006">portafolio</rem:ref> con Saldo en 0, Fecha de Apertura = Fecha Actual y Estado = Activo</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0110">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el botón &quot;Crear Portafolio&quot; desde la página principal del aplicativo móvil</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0111">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra el formulario para la creación del <rem:ref oid="GLO-0006">portafolio</rem:ref>, presentando la lista de comisionistas y de divisas matriculados desde el Sistema Web</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0016">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa el nombre del <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0017">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona el <rem:ref oid="GLO-0008">comisionista</rem:ref> que se encargará de administrar el <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0113">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona la divisa con la cual se calculará el saldo y el balance del <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0018">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0019">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el nombre del <rem:ref oid="GLO-0006">portafolio</rem:ref> sea único</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0009">
+<rem:condition>
+el nombre del <rem:ref oid="GLO-0006">portafolio</rem:ref> ya se encuentra registrado para el <rem:ref oid="GLO-0007">inversionista</rem:ref></rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;Ya existe un <rem:ref oid="GLO-0006">portafolio</rem:ref> con este nombre&quot; y vuelve al paso 3</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0114">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+almacena el nuevo <rem:ref oid="GLO-0006">portafolio</rem:ref> en la base de datos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0116">
+<rem:number>9</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra mensaje &quot;El <rem:ref oid="GLO-0006">portafolio</rem:ref> se registró correctamente&quot;</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0011">
+<rem:name>
+Generar balance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0007">inversionista</rem:ref> desea consultar el balance general de un <rem:ref oid="GLO-0006">portafolio</rem:ref> en específico desde su dispositivo móvil.</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0007">inversionista</rem:ref> debe seleccionar un <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual generar su balance</rem:precondition>
+<rem:postcondition>
+El sistema mostrará el balance general del <rem:ref oid="GLO-0006">portafolio</rem:ref> seleccionado</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0118">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega la lista de portafolios matriculados para el <rem:ref oid="GLO-0007">inversionista</rem:ref> desde la página principal del aplicativo móvil</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0119">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona un <rem:ref oid="GLO-0006">portafolio</rem:ref> y a continuación hace click en el botón &quot;Balance&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0124">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el <rem:ref oid="GLO-0007">inversionista</rem:ref> haya seleccionado un <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual generar su balance</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0025">
+<rem:condition>
+el <rem:ref oid="GLO-0007">inversionista</rem:ref> no seleccionó ningún <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;Seleccione un Portafolio&quot; y vuelve al paso 2</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0120">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra la información básica del <rem:ref oid="GLO-0006">portafolio</rem:ref>: Nombre, Fecha de Apertura y Saldo</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0121">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula la Utilidad del <rem:ref oid="GLO-0006">portafolio</rem:ref> (Ingresos - Egresos) y la presenta al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0123">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula la Rentabilidad del <rem:ref oid="GLO-0006">portafolio</rem:ref> ( Utilidad / Días) y la presenta al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0125">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra el inventario de acciones pertenecientes al <rem:ref oid="GLO-0006">portafolio</rem:ref>, que se presenta como una tabla con las siguientes columnas: Nombre de la <rem:ref oid="GLO-0014">Acción</rem:ref> y Cantidad</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0007">
+<rem:name>
+Colocar <rem:ref oid="GLO-0012">orden de compra</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0007">inversionista</rem:ref> desea colocar una <rem:ref oid="GLO-0012">orden de compra</rem:ref> de acciones desde su dispositivo móvil.</rem:triggeringEvent>
+<rem:precondition>
+Se tiene el saldo suficiente para respaldar la operación, las fechas son válidas, la cantidad de acciones está en el rango permitido, el valor unitario está en el rango permitido, existe un <rem:ref oid="GLO-0016">trader</rem:ref> al cual asignarle la orden</rem:precondition>
+<rem:postcondition>
+El sistema creará una nueva <rem:ref oid="GLO-0012">orden de compra</rem:ref> en el <rem:ref oid="GLO-0006">portafolio</rem:ref> seleccionado con estado PENDIENTE. El <rem:ref oid="GLO-0006">portafolio</rem:ref> tendrá una cuenta con la <rem:ref oid="GLO-0014">acción</rem:ref> ordenada.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0128">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega la lista de portafolios matriculados para el <rem:ref oid="GLO-0007">inversionista</rem:ref> desde la página principal del aplicativo móvil</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0127">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona un <rem:ref oid="GLO-0006">portafolio</rem:ref> y a continuación hace click en el botón &quot;Agregar Orden de Compra&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0131">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el <rem:ref oid="GLO-0007">inversionista</rem:ref> haya seleccionado un <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual generar la <rem:ref oid="GLO-0012">orden de compra</rem:ref></rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0026">
+<rem:condition>
+el <rem:ref oid="GLO-0007">inversionista</rem:ref> no seleccionó ningún <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;Seleccione un Portafolio&quot; y vuelve al paso 2</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0130">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega el formulario para la adición de la <rem:ref oid="GLO-0012">orden de compra</rem:ref> con todos sus campos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0034">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la fecha inicial y final en la que la orden tendrá validez</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0133">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la fecha final sea mayor o igual a la fecha inicial, y que la fecha inicial sea mayor o igual a la fecha actual</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0027">
+<rem:condition>
+la fecha final es inferior a la fecha inicial</rem:condition>
+<rem:systemAction>
+<rem:description>
+despliega mensaje: &quot;La fecha final debe ser mayor o igual a la fecha inicial&quot; y vuelve al paso 5</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0028">
+<rem:condition>
+la fecha inicial es inferior a la fecha actual</rem:condition>
+<rem:systemAction>
+<rem:description>
+despliega mensaje: &quot;La fecha inicial debe ser mayor o igual a la fecha actual&quot; y vuelve al paso 5</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0035">
+<rem:number>7</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona la accion que desea ordenar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0134">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra el valor actual de la <rem:ref oid="GLO-0014">acción</rem:ref> en la <rem:ref oid="GLO-0005">BVC</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0037">
+<rem:number>9</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la cantidad de acciones a ordenar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0135">
+<rem:number>10</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la cantidad de acciones a ordenar sea superior a 0 e inferior o igual a la cantidad en circulación de la <rem:ref oid="GLO-0014">acción</rem:ref> en la <rem:ref oid="GLO-0005">BVC</rem:ref></rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0038">
+<rem:condition>
+la cantidad de acciones a ordenar no está dentro del rango permitido</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;La cantidad a ordenar no está dentro del rango permitido&quot; y vuelve al paso 9</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0038">
+<rem:number>11</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el valor unitario por accion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0136">
+<rem:number>12</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el valor unitario por <rem:ref oid="GLO-0014">acción</rem:ref> especificado por el <rem:ref oid="GLO-0007">inversionista</rem:ref> no difiera del valor actual en la <rem:ref oid="GLO-0005">BVC</rem:ref> en más de un 5%, tanto por abajo como por encima de este valor</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0029">
+<rem:condition>
+el valor unitario de la <rem:ref oid="GLO-0014">acción</rem:ref> difiere del rango permitido</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;El valor unitario de la <rem:ref oid="GLO-0014">acción</rem:ref> debe estar dentro el límite permitido&quot; y vuelve al paso 11</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0041">
+<rem:number>13</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el subtotal de la orden (cantidad * valor) y lo muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0042">
+<rem:number>14</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el porcentaje sobre el subtotal a pagarle al <rem:ref oid="GLO-0008">comisionista</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0043">
+<rem:number>15</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor de la comision (subtotal * porcentaje de comision) y lo muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0044">
+<rem:number>16</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el porcentaje de impuestos a pagar sobre el valor de la comisión</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0045">
+<rem:number>17</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor de los impuestos (valor comisión * porcentaje de impuestos) y lo muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0046">
+<rem:number>18</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el valor de otros gastos asociados a la transaccion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0047">
+<rem:number>19</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el total de la <rem:ref oid="GLO-0012">orden de compra</rem:ref> (subtotal + valor comisión + valor impuestos + valor gastos) y el valor neto unitario por accion (valor total / catidad acciones) y los muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0137">
+<rem:number>20</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa unas observaciones opcionales que luego podrán ser leídas por el <rem:ref oid="GLO-0016">Trader</rem:ref> que procese la <rem:ref oid="GLO-0012">orden de compra</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0048">
+<rem:number>21</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0337">
+<rem:number>22</rem:number>
+<rem:systemAction>
+<rem:description>
+Valida que el <rem:ref oid="GLO-0007">inversionista</rem:ref> haya ingresado todos los campos requeridos (los que nos son calculados por el sistema). En específico:<br/>- Fecha inicial<br/>- Fecha final<br/>- <rem:ref oid="GLO-0014">Acción</rem:ref><br/>- Cantidad<br/>- Valor bruto unitario<br/>- Porcentaje comisión<br/>- Porcentaje impuestos<br/>- Gastos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0050">
+<rem:condition>
+falta algún campo requerido</rem:condition>
+<rem:systemAction>
+<rem:description>
+indica al usuario que diligencie los campos faltantes</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0338">
+<rem:number>23</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el formato y la longitud de los campos ingresados por el <rem:ref oid="GLO-0007">inversionista</rem:ref> sean correctos, de acuerdo a la siguiente lógica:<br/>- Fecha inicial. Date (dd/MM/yyyy HH:mm)<br/>- Fecha final. Date (dd/MM/yyyy HH:mm)<br/>- Cantidad. Numérico (10)<br/>- Valor bruto unitario. Float (20)<br/>- Porcentaje comisión. Float (5)<br/>- Porcentaje impuestos. Float (5)<br/>- Gastos. Float (20)<br/>- Observaciones. String (500)</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0051">
+<rem:condition>
+el formato de uno o más campos es incorrecto (tanto por tipo o longitud)</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje indicando al usuario que verifique el formato de los campos</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0138">
+<rem:number>24</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el saldo del <rem:ref oid="GLO-0006">portafolio</rem:ref> sobre el que se generó la orden sea mayor o igual al valor total de la orden para poder respaldar la transacción</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0030">
+<rem:condition>
+el saldo del <rem:ref oid="GLO-0006">portafolio</rem:ref> es inferior al valor total de la orden</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra sensaje: &quot;No cuenta con los fondos para realizar esta transacción&quot;</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0139">
+<rem:number>25</rem:number>
+<rem:systemAction>
+<rem:description>
+almacena la <rem:ref oid="GLO-0012">orden de compra</rem:ref> con la información proporcionada por usuario más la siguiente información: Estado de la orden = PENDIENTE, Fecha hora de la transacción = Fecha hora actual, Responsable = <rem:ref oid="GLO-0007">Inversionista</rem:ref> que realiza la transacción</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0172">
+<rem:number>26</rem:number>
+<rem:condition>
+el <rem:ref oid="GLO-0006">portafolio</rem:ref> no tiene una cuenta creada con la <rem:ref oid="GLO-0014">acción</rem:ref> ordenada</rem:condition>
+<rem:systemAction>
+<rem:description>
+almacena en la base de datos una nueva cuenta con el Id del portafolo y el Id de la <rem:ref oid="GLO-0014">acción</rem:ref> </rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0254">
+<rem:number>27</rem:number>
+<rem:systemAction>
+<rem:description>
+asigna la orden a un <rem:ref oid="GLO-0016">trader</rem:ref> de la firma <rem:ref oid="GLO-0008">comisionista</rem:ref> para su posterior procesamiento</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0256">
+<rem:number>28</rem:number>
+<rem:systemAction>
+<rem:description>
+envía una notificación por correo electrónico al <rem:ref oid="GLO-0016">trader</rem:ref> al que le fue asignada la orden</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0014">
+<rem:name>
+Colocar <rem:ref oid="GLO-0013">orden de venta</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0007">inversionista</rem:ref> desea colocar una <rem:ref oid="GLO-0013">orden de venta</rem:ref> de acciones desde su dispositivo móvil.</rem:triggeringEvent>
+<rem:precondition>
+Se tiene acciones suficientes para respaldar la operación, las fechas son válidas, la cantidad de acciones está en el rango permitido, el valor unitario está en el rango permitido, existe un <rem:ref oid="GLO-0016">trader</rem:ref> al cual asignarle la orden</rem:precondition>
+<rem:postcondition>
+El sistema creará una nueva <rem:ref oid="GLO-0013">orden de venta</rem:ref> en el <rem:ref oid="GLO-0006">portafolio</rem:ref> seleccionado con estado PENDIENTE</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0173">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega la lista de portafolios matriculados para el <rem:ref oid="GLO-0007">inversionista</rem:ref> desde la página principal del aplicativo móvil</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0174">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona un <rem:ref oid="GLO-0006">portafolio</rem:ref> y a continuación hace click en el botón &quot;Agregar Orden de Venta&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0175">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el <rem:ref oid="GLO-0007">inversionista</rem:ref> haya seleccionado un <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual generar la <rem:ref oid="GLO-0013">orden de venta</rem:ref></rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0039">
+<rem:condition>
+el <rem:ref oid="GLO-0007">inversionista</rem:ref> no seleccionó ningún <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;Seleccione un Portafolio&quot; y vuelve al paso 2</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0176">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega el formulario para la adición de la <rem:ref oid="GLO-0013">orden de venta</rem:ref> con todos sus campos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0177">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la fecha inicial y final en la que la orden tendrá validez</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0178">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la fecha final sea mayor o igual a la fecha inicial, y que la fecha inicial sea mayor o igual a la fecha actual</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0040">
+<rem:condition>
+la fecha final es inferior a la fecha inicial</rem:condition>
+<rem:systemAction>
+<rem:description>
+despliega mensaje: &quot;La fecha final debe ser mayor o igual a la fecha inicial&quot; y vuelve al paso 5</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0041">
+<rem:condition>
+la fecha inicial es inferior a la fecha actual</rem:condition>
+<rem:systemAction>
+<rem:description>
+despliega mensaje: &quot;La fecha inicial debe ser mayor o igual a la fecha actual&quot; y vuelve al paso 5</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0179">
+<rem:number>7</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona la accion que desea vender</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0180">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra el valor actual de la <rem:ref oid="GLO-0014">acción</rem:ref> en la <rem:ref oid="GLO-0005">BVC</rem:ref> y la cantidad de acciones disponibles para vender</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0181">
+<rem:number>9</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la cantidad de acciones a vender</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0182">
+<rem:number>10</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la cantidad de acciones a vender sea superior a 0 e inferior o igual a la cantidad de acciones disponibles</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0042">
+<rem:condition>
+la cantidad de acciones a vender no está dentro del rango permitido</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;La cantidad a vender no está dentro del rango permitido&quot; y vuelve al paso 9</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0183">
+<rem:number>11</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el valor unitario por accion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0184">
+<rem:number>12</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el valor unitario por <rem:ref oid="GLO-0014">acción</rem:ref> especificado por el <rem:ref oid="GLO-0007">inversionista</rem:ref> no difiera del valor actual en la <rem:ref oid="GLO-0005">BVC</rem:ref> en más de un 5%, tanto por abajo como por encima de este valor</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0043">
+<rem:condition>
+el valor unitario de la <rem:ref oid="GLO-0014">acción</rem:ref> difiere del rango permitido</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;El valor unitario de la <rem:ref oid="GLO-0014">acción</rem:ref> debe estar dentro el límite permitido&quot; y vuelve al paso 11</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0185">
+<rem:number>13</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el subtotal de la orden (cantidad * valor) y lo muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0186">
+<rem:number>14</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el porcentaje sobre el subtotal a pagarle al <rem:ref oid="GLO-0008">comisionista</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0187">
+<rem:number>15</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor de la comision (subtotal * porcentaje de comision) y lo muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0188">
+<rem:number>16</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el porcentaje de impuestos a pagar sobre el valor de la comisión</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0189">
+<rem:number>17</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor de los impuestos (valor comisión * porcentaje de impuestos) y lo muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0190">
+<rem:number>18</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el valor de otros gastos asociados a la transaccion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0191">
+<rem:number>19</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el total de la <rem:ref oid="GLO-0013">orden de venta</rem:ref> (subtotal - valor comisión - valor impuestos - valor gastos) y el valor neto unitario por accion (valor total / catidad acciones) y los muestra al usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0192">
+<rem:number>20</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa unas observaciones opcionales que luego podrán ser leídas por el <rem:ref oid="GLO-0016">Trader</rem:ref> que procese la <rem:ref oid="GLO-0013">orden de venta</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0193">
+<rem:number>21</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0195">
+<rem:number>22</rem:number>
+<rem:systemAction>
+<rem:description>
+almacena la <rem:ref oid="GLO-0013">orden de venta</rem:ref> con la información proporcionada por usuario más la siguiente información: Estado de la orden = PENDIENTE, Fecha hora de la transacción = Fecha hora actual, Responsable = <rem:ref oid="GLO-0007">Inversionista</rem:ref> que realiza la transacción</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0255">
+<rem:number>23</rem:number>
+<rem:systemAction>
+<rem:description>
+asigna la orden a un <rem:ref oid="GLO-0016">trader</rem:ref> de la firma <rem:ref oid="GLO-0008">comisionista</rem:ref> para su posterior procesamiento</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0257">
+<rem:number>24</rem:number>
+<rem:systemAction>
+<rem:description>
+envía una notificación por correo electrónico al <rem:ref oid="GLO-0016">trader</rem:ref> al que le fue asignada la orden</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0005">
+<rem:name>
+Depositar efectivo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0007">inversionista</rem:ref> hace click en el boton &quot;Agregar deposito&quot;. Esta operación permite inyectarle <rem:ref oid="GLO-0009">capital</rem:ref> al <rem:ref oid="GLO-0006">portafolio</rem:ref> de un <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:triggeringEvent>
+<rem:precondition>
+El usuario debe haber matriculado un <rem:ref oid="GLO-0006">portafolio</rem:ref> en el sistema</rem:precondition>
+<rem:postcondition>
+El <rem:ref oid="GLO-0015">estado financiero</rem:ref> del usuario cambiara</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0020">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona el <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual le realizará el <rem:ref oid="GLO-0010">deposito</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0021">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la fecha en la cual se hará el <rem:ref oid="GLO-0010">deposito</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0024">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa el valor del <rem:ref oid="GLO-0010">deposito</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0025">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el medio de pago (cheque, efectivo, translado. otro)</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0026">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa unas observaciones opcionales</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0022">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0023">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la informacion sea consistente y a continuacion guarda los datos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0010">
+<rem:condition>
+los datos son invalidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0212">
+<rem:number>8</rem:number>
+<rem:useCaseAction useCase = "UC-0015"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0006">
+<rem:name>
+Retirar efectivo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0007">inversionista</rem:ref> hace click en el boton &quot;Agregar retiro&quot;. Esta operación permite retirar <rem:ref oid="GLO-0009">capital</rem:ref> del <rem:ref oid="GLO-0006">portafolio</rem:ref> de un <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:triggeringEvent>
+<rem:precondition>
+El usuario debe haber matriculado un <rem:ref oid="GLO-0006">portafolio</rem:ref> en el sistema</rem:precondition>
+<rem:postcondition>
+El <rem:ref oid="GLO-0015">estado financiero</rem:ref> del usuario cambiara</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0027">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona el <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual le realizará el <rem:ref oid="GLO-0011">retiro</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0028">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la fecha en la cual se hará el <rem:ref oid="GLO-0011">retiro</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0029">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa el valor del <rem:ref oid="GLO-0011">retiro</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0030">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el medio de <rem:ref oid="GLO-0011">retiro</rem:ref>(cheque, efectivo, translado. otro)</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0031">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa unas observaciones opcionales</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0032">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0033">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la informacion sea consistente y a continuacion guarda los datos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0012">
+<rem:condition>
+los datos son invalidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0213">
+<rem:number>8</rem:number>
+<rem:useCaseAction useCase = "UC-0015"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0009">
+<rem:name>
+<rem:ref oid="GLO-0017">Enrepar acciones</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0007">inversionista</rem:ref> hace click en el boton &quot;Agregar operacion repo&quot;. Esta operación es como un préstamo, en donde un <rem:ref oid="GLO-0007">inversionista</rem:ref> le pide dinero prestado a una firma <rem:ref oid="GLO-0008">comisionista</rem:ref> y esta le concede el préstamo respaldado con las acciones que el <rem:ref oid="GLO-0007">inversionista</rem:ref> tenga en su <rem:ref oid="GLO-0006">portafolio</rem:ref>.</rem:triggeringEvent>
+<rem:precondition>
+El usuario debe haber matriculado un <rem:ref oid="GLO-0006">portafolio</rem:ref> en el sistema y haber realizado una <rem:ref oid="GLO-0012">orden de compra</rem:ref> previamente</rem:precondition>
+<rem:postcondition>
+Realizar una orden de operacion <rem:ref oid="GLO-0002">repo</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0248">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega la lista de portafolios matriculados para el <rem:ref oid="GLO-0007">inversionista</rem:ref> desde la página principal del aplicativo móvil</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0249">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona un <rem:ref oid="GLO-0006">portafolio</rem:ref> y a continuación hace click en el botón &quot;Agregar operación repo&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0250">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que el <rem:ref oid="GLO-0007">inversionista</rem:ref> haya seleccionado un <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual generar la operación <rem:ref oid="GLO-0002">repo</rem:ref></rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0046">
+<rem:condition>
+el <rem:ref oid="GLO-0007">inversionista</rem:ref> no seleccionó ningún <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;Seleccione un Portafolio&quot; y vuelve al paso 2</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0066">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una tabla con la lista de acciones del <rem:ref oid="GLO-0006">portafolio</rem:ref> y la cantidad enrepable por cada <rem:ref oid="GLO-0014">acción</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0080">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton continuar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0065">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la fecha inicial y el numero de dias en que se hará el prestamo</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0251">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la fecha inicial sea mayor o igual a la fecha actual</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0048">
+<rem:condition>
+la fecha inicial es inferior a la fecha actual</rem:condition>
+<rem:systemAction>
+<rem:description>
+despliega mensaje: &quot;La fecha inicial debe ser mayor o igual a la fecha actual&quot; y vuelve al paso 5</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0068">
+<rem:number>8</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa la cantidad de acciones a enrepar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0252">
+<rem:number>9</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la cantidad ingresada sea mayor que 0 y menor que el número máximo de acciones enrepables mostrado en el paso 4</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0049">
+<rem:condition>
+la cantidad de acciones a enrepar está fuera del límite permitido</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje: &quot;La cantidad de acciones a enrepar debe estar dentro de los límites permitidos&quot; y vuelve al paso 8</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0069">
+<rem:number>10</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el valor de captacion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0071">
+<rem:number>11</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el porcentaje sobre el valor de captacion a pagarle al <rem:ref oid="GLO-0008">comisionista</rem:ref>.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0072">
+<rem:number>12</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor de la comision (valor de captacion * porcentaje de comision)</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0073">
+<rem:number>13</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el porcentaje de impuestos sobre el valor de captacion.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0074">
+<rem:number>14</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor de los impuestos (valor de captacion * porcentaje de impuestos)</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0075">
+<rem:number>15</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica el valor de otros gastos asociados a la transaccion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0076">
+<rem:number>16</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor recibido</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0081">
+<rem:number>17</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+especifica la tasa de recompra</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0082">
+<rem:number>18</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el valor de la recompra</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0077">
+<rem:number>19</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton guardar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0253">
+<rem:number>20</rem:number>
+<rem:systemAction>
+<rem:description>
+guarda la operación <rem:ref oid="GLO-0002">repo</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0214">
+<rem:number>21</rem:number>
+<rem:useCaseAction useCase = "UC-0015"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0015">
+<rem:name>
+Actualizar saldo <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+</rem:triggeringEvent>
+<rem:precondition>
+El caso de uso recibe como argumento el Id del <rem:ref oid="GLO-0006">portafolio</rem:ref> al cual se le recalculará su saldo</rem:precondition>
+<rem:postcondition>
+El saldo del <rem:ref oid="GLO-0006">portafolio</rem:ref> sera igual a: Saldo = Depósitos - Retiros + Repos + Total Ventas - Total Compras</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0204">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+consulta todos los depósitos realizados al <rem:ref oid="GLO-0006">portafolio</rem:ref> y con esto calcula el valor total de los depósitos. Esta sumatoria se almacena en la variable Depositos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0206">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+consulta todos los retiros realizados al <rem:ref oid="GLO-0006">portafolio</rem:ref> y con esto calcula el valor total de los retiros. Esta sumatoria se almacena en la variable Retiros</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0207">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+consulta todos los repos realizados al <rem:ref oid="GLO-0006">portafolio</rem:ref> y con esto calcula el valor total de los repos. Esta sumatoria se almacena en la variable Repos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0208">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+consulta todas las ventas realizadas al <rem:ref oid="GLO-0006">portafolio</rem:ref> en estado EJECUTADO y con esto calcula el valor total de las ventas. Esta sumatoria se almacena en la variable Ventas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0209">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+consulta todas las compras realizadas al <rem:ref oid="GLO-0006">portafolio</rem:ref> en estado EJECUTADO y con esto calcula el valor total de las compras. Esta sumatoria se almacena en la variable Compras</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0210">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula el nuevo saldo del <rem:ref oid="GLO-0006">portafolio</rem:ref> de acuerdo a la siguiete fórmula: Saldo = Depósitos - Retiros + Repos + Total Ventas - Total Compras</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0211">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+Almacena el nuevo saldo del <rem:ref oid="GLO-0006">portafolio</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0016">
+<rem:name>
+Actualizar valores de mercado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+se activa la tarea programada que actualiza los valores de las acciones de acuerdo a los valores del mercado (<rem:ref oid="GLO-0005">BVC</rem:ref>). Este caso de uso se debe ejecutar cada 20 minutos de lunes a viernes entre la hora  de apertura y cierre del mercado.</rem:triggeringEvent>
+<rem:precondition>
+Previamente se han matriculado todas las acciones de la <rem:ref oid="GLO-0005">BVC</rem:ref> desde la administración de los maestros</rem:precondition>
+<rem:postcondition>
+El valor de las acciones se habrá actualizado con los valores de la <rem:ref oid="GLO-0005">BVC</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0222">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+consulta la lista de acciones matricualadas en el mercado colombiano</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0223">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+llama el servicio Web de la <rem:ref oid="GLO-0005">BVC</rem:ref> que permite obtener el valor actual de las acciones, para cada una de las acciones consultadas en el paso 1 </rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0224">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+el sistema guarda el valor actual de cada <rem:ref oid="GLO-0014">acción</rem:ref> con la fecha y hora actual, y adicionalmente guarda este valor en el histórico de valores de la <rem:ref oid="GLO-0014">acción</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0017">
+<rem:name>
+Procesar <rem:ref oid="GLO-0012">orden de compra</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0016">trader</rem:ref> debe procesar una <rem:ref oid="GLO-0012">orden de compra</rem:ref> de acciones generada por un <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:triggeringEvent>
+<rem:precondition>
+Previamente se ha creado una <rem:ref oid="GLO-0012">orden de compra</rem:ref> de acciones y se encuentra en estado PENDIENTE</rem:precondition>
+<rem:postcondition>
+La <rem:ref oid="GLO-0012">orden de compra</rem:ref> cambiará a alguno de estos estados: EJECUTADA, CANCELADA.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0229">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+hace click en el botón &quot;Procesar Ordenes de Compra&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0230">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega la lista de ordenes de compra asignadas al <rem:ref oid="GLO-0016">trader</rem:ref> que se encuentren en estado PENDIENTE</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0231">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+selecciona una orden de la lista y a continuación hace click en el botón &quot;Procesar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0232">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra la información de la orden: <rem:ref oid="GLO-0014">Acción</rem:ref>, Cantidad, Valor Unitario, Total Comisión, Total Impuestos, Total Gastos, Total Orden. Adicionalmente muestra el valor actual de la <rem:ref oid="GLO-0014">acción</rem:ref> en la <rem:ref oid="GLO-0005">BVC</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0233">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+cambia el estado de la <rem:ref oid="GLO-0014">acción</rem:ref> a alguno de estos estados: EJECUTADA, CANCELADA y a continuación hace click en el botón &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0236">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+guarda los cambios en la base de datos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0238">
+<rem:number>7</rem:number>
+<rem:useCaseAction useCase = "UC-0015"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0237">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+envía un email al <rem:ref oid="GLO-0007">inversionista</rem:ref> indicando que su orden ha sido procesada.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0018">
+<rem:name>
+Procesar <rem:ref oid="GLO-0013">orden de venta</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0016">trader</rem:ref> debe procesar una <rem:ref oid="GLO-0013">orden de venta</rem:ref> de acciones generada por un <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:triggeringEvent>
+<rem:precondition>
+Previamente se ha creado una <rem:ref oid="GLO-0013">orden de venta</rem:ref> de acciones y se encuentra en estado PENDIENTE</rem:precondition>
+<rem:postcondition>
+La <rem:ref oid="GLO-0013">orden de venta</rem:ref> cambiará a alguno de estos estados: EJECUTADA, CANCELADA.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0239">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+hace click en el botón &quot;Procesar Ordenes de Venta&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0240">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega la lista de ordenes de venta asignadas al <rem:ref oid="GLO-0016">trader</rem:ref> que se encuentren en estado PENDIENTE</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0241">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+selecciona una orden de la lista y a continuación hace click en el botón &quot;Procesar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0242">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra la información de la orden: <rem:ref oid="GLO-0014">Acción</rem:ref>, Cantidad, Valor Unitario, Total Comisión, Total Impuestos, Total Gastos, Total Orden. Adicionalmente muestra el valor actual de la <rem:ref oid="GLO-0014">acción</rem:ref> en la <rem:ref oid="GLO-0005">BVC</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0243">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+cambia el estado de la <rem:ref oid="GLO-0014">acción</rem:ref> a alguno de estos estados: EJECUTADA, CANCELADA y a continuación hace click en el botón &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0244">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+guarda los cambios en la base de datos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0245">
+<rem:number>7</rem:number>
+<rem:useCaseAction useCase = "UC-0015"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0246">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+envía un email al <rem:ref oid="GLO-0007">inversionista</rem:ref> indicando que su orden ha sido procesada.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0001">
+<rem:name>
+Administrar mercados</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+El usuario hace click en el boton &quot;Administrar mercado&quot;.</rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+El sistema creara un nuevo mercado</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0001">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+ingresa el nombre del mercado</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0002">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona la moneda</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0003">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+ingresa la URL para la obtencion de los valores de las acciones</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0004">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+hace click en el boton guardar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0005">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la informacion sea consistente y a continuacion guarda los datos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0001">
+<rem:condition>
+los datos son invalidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0003">
+<rem:condition>
+el mercado ya se encuentra registrado en el sistema</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0002">
+<rem:name>
+Administrar acciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+El usuario hace click en el boton &quot;Administrar acciones&quot;.</rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+El sistema creara una nueva accion</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0006">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona el mercado</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0007">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+ingresa el <rem:ref oid="GLO-0003">nemotecnico</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0008">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+ingresa el valor inicial de la accion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0009">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+hace click en el boton guardar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0010">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la informacion sea consistente y a continuacion guarda los datos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0004">
+<rem:condition>
+los datos son invalidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0005">
+<rem:condition>
+la accion ya se encuentra registrada en el sistema</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0003">
+<rem:name>
+Administrar comisionistas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+El usuario hace click en el boton &quot;Agregar comisionista&quot;.</rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+El sistema creara un nuevo <rem:ref oid="GLO-0008">comisionista</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0011">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+ingresa el nombre del <rem:ref oid="GLO-0008">comisionista</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0012">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+indica el estado (activo/inactivo)</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0014">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+hace click en el boton guardar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0015">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la informacion sea consistente y a continuacion guarda los datos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0006">
+<rem:condition>
+los datos son invalidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0007">
+<rem:condition>
+el <rem:ref oid="GLO-0008">comisionista</rem:ref> ya se encuentra registrado en el sistema</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0010">
+<rem:name>
+Agregar dividendos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+El usuario hace click en el boton &quot;Agregar dividendo&quot;.</rem:triggeringEvent>
+<rem:precondition>
+El usuario debe haber matriculado un <rem:ref oid="GLO-0006">portafolio</rem:ref> en el sistema y haber realizado una <rem:ref oid="GLO-0012">orden de compra</rem:ref> previamente</rem:precondition>
+<rem:postcondition>
+El sistema calcula la liquidacion por dividendos</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0083">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona la accion a la cual le generaran dividendos</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0085">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+ingresa los periodos <rem:ref oid="GLO-0004">dividendo</rem:ref> (numero de meses)</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0086">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+calcula la liquidacion de los dividendos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0087">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton guardar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0088">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+valida que la informacion sea consistente y a continuacion guarda los datos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0018">
+<rem:condition>
+los datos son invalidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y vuelve al paso 1</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0012">
+<rem:name>
+Sincronización de información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+El usuario hace click en el boton &quot;Sincronizar informacion&quot;.</rem:triggeringEvent>
+<rem:precondition>
+El usuario debe haber matriculado un <rem:ref oid="GLO-0006">portafolio</rem:ref> en el sistema y haber realizado una <rem:ref oid="GLO-0012">orden de compra</rem:ref>/venta previamente</rem:precondition>
+<rem:postcondition>
+El sistema actualizara la informacion en la nube</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0096">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+hace click en el boton sincronizar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0097">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+sincronizara los valores actualizando la base de datos en la nube</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0020">
+<rem:condition>
+si no hay concetividad</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0009">
+<rem:name>
+Trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>9 </rem:number>
+<rem:traceabilityMatrix
+ oid = "TRM-0001">
+<rem:name>
+Objetivos - Requisitos Funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="FRQ-0002"/>
+<rem:th oid ="FRQ-0003"/>
+<rem:th oid ="FRQ-0004"/>
+<rem:th oid ="FRQ-0005"/>
+<rem:th oid ="FRQ-0006"/>
+<rem:th oid ="FRQ-0007"/>
+<rem:th oid ="FRQ-0008"/>
+<rem:th oid ="FRQ-0009"/>
+<rem:th oid ="FRQ-0010"/>
+<rem:th oid ="FRQ-0011"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="OBJ-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0002">
+<rem:name>
+Objetivos - Requisitos No Funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="NFR-0001"/>
+<rem:th oid ="NFR-0002"/>
+<rem:th oid ="NFR-0003"/>
+<rem:th oid ="NFR-0004"/>
+<rem:th oid ="NFR-0005"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="OBJ-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0003">
+<rem:name>
+Requisito Funcional - Casos de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="UC-0001"/>
+<rem:th oid ="UC-0002"/>
+<rem:th oid ="UC-0003"/>
+<rem:th oid ="UC-0004"/>
+<rem:th oid ="UC-0005"/>
+<rem:th oid ="UC-0006"/>
+<rem:th oid ="UC-0007"/>
+<rem:th oid ="UC-0009"/>
+<rem:th oid ="UC-0010"/>
+<rem:th oid ="UC-0011"/>
+<rem:th oid ="UC-0012"/>
+<rem:th oid ="UC-0013"/>
+<rem:th oid ="UC-0014"/>
+<rem:th oid ="UC-0015"/>
+<rem:th oid ="UC-0016"/>
+<rem:th oid ="UC-0017"/>
+<rem:th oid ="UC-0018"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0011"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+</rem:section>
+<rem:section
+ oid = "SEC-0006">
+<rem:name>
+Glosario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>10 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0014">
+<rem:name>
+<rem:ref oid="GLO-0014">Acción</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Una <rem:ref oid="GLO-0014">acción</rem:ref> es la parte alícuota del <rem:ref oid="GLO-0009">capital</rem:ref> social de una sociedad anónima. Cabe resaltar que poseer acciones de una compañía confiere legitimidad al accionista para exigir sus derechos, pero a su vez para cumplir con sus obligaciones.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0005">
+<rem:name>
+<rem:ref oid="GLO-0005">BVC</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Abreviatura de la Bolsa de Valores de Colombia. Es el único mercado de acciones y otros valores de Colombia, organizado a través de la estructura de bolsa.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0009">
+<rem:name>
+<rem:ref oid="GLO-0009">Capital</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En el contexto de nuestro sistema, el <rem:ref oid="GLO-0009">capital</rem:ref> corresponde al saldo en efectivo que tiene un <rem:ref oid="GLO-0006">portafolio</rem:ref>, en favor del <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0008">
+<rem:name>
+<rem:ref oid="GLO-0008">Comisionista</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Son los únicos entes autorizados por la <rem:ref oid="GLO-0005">BVC</rem:ref> para vender o comprar en el mercado accionario. Cuando un <rem:ref oid="GLO-0007">inversionista</rem:ref> realiza una compra, realmente es la firma <rem:ref oid="GLO-0008">comisionista</rem:ref> la que hace la compra y luego le sede estos activos a través de una transacción.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0010">
+<rem:name>
+<rem:ref oid="GLO-0010">Deposito</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es una operación en la que un <rem:ref oid="GLO-0007">inversionista</rem:ref> le hace un ingreso de efectivo a un <rem:ref oid="GLO-0006">portafolio</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0004">
+<rem:name>
+<rem:ref oid="GLO-0004">Dividendo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El <rem:ref oid="GLO-0004">dividendo</rem:ref> activo, es la parte del beneficio obtenido por las sociedades mercantiles cuyos órganos sociales acuerdan que sea repartido entre los socios de las mismas. Es decir, una vez acordado su reparto, es un crédito del socio frente a la sociedad. De otro lado, el <rem:ref oid="GLO-0004">dividendo</rem:ref> pasivo es el crédito que ostenta la sociedad mercantil frente al socio, por la parte del <rem:ref oid="GLO-0009">capital</rem:ref> social que suscribió y que se comprometió a desembolsar. La diferencia entre las aportaciones y el desembolso inicial de los accionistas.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0017">
+<rem:name>
+<rem:ref oid="GLO-0017">Enrepar Acciones</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es la <rem:ref oid="GLO-0014">acción</rem:ref> de realizar una operación <rem:ref oid="GLO-0002">Repo</rem:ref> por parte de un <rem:ref oid="GLO-0007">inversionista</rem:ref>: Esta operación es como un préstamo, en donde un <rem:ref oid="GLO-0007">inversionista</rem:ref> le pide dinero prestado a una firma <rem:ref oid="GLO-0008">comisionista</rem:ref> y esta le concede el préstamo respaldado con las acciones que el <rem:ref oid="GLO-0007">inversionista</rem:ref> tenga en su <rem:ref oid="GLO-0006">portafolio</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0015">
+<rem:name>
+<rem:ref oid="GLO-0015">Estado financiero</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es el saldo actual en <rem:ref oid="GLO-0009">capital</rem:ref> que tiene un <rem:ref oid="GLO-0007">inversionista</rem:ref> en un <rem:ref oid="GLO-0006">portafolio</rem:ref> y la cantidad de acciones que posee, los cuales son reconocidos por la firma <rem:ref oid="GLO-0008">comisionista</rem:ref> que administra el <rem:ref oid="GLO-0006">portafolio</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0007">
+<rem:name>
+<rem:ref oid="GLO-0007">Inversionista</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es aquella persona natural (persona física) o jurídica que es propietaria de acciones de los distintos tipos de sociedades anónimas o comanditarias que pueden existir en el marco jurídico de cada país. En el caso de nuestro sistema, es el usuario que compra o vende acciones.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0001">
+<rem:name>
+<rem:ref oid="GLO-0001">Mercado Financiero</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es un espacio en el que se realizan los intercambios de instrumentos financieros y se definen sus precios.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0003">
+<rem:name>
+<rem:ref oid="GLO-0003">Nemotecnico</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es un sistema sencillo utilizado para recordar una secuencia de datos, nombres, números, y en general para recordar listas de items que no pueden recordarse fácilmente.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0012">
+<rem:name>
+<rem:ref oid="GLO-0012">Orden de compra</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es una operación en la que un <rem:ref oid="GLO-0007">inversionista</rem:ref> le ordena a un <rem:ref oid="GLO-0016">trader</rem:ref> la compra de una cantidad determinada de acciones a un cierto valor y dentro de un determinado rango de fechas establecido por el <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0013">
+<rem:name>
+<rem:ref oid="GLO-0013">Orden de Venta</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es una operación en la que un <rem:ref oid="GLO-0007">inversionista</rem:ref> le ordena a un <rem:ref oid="GLO-0016">trader</rem:ref> la venta de una cantidad determinada de acciones a un cierto valor y dentro de un determinado rango de fechas establecido por el <rem:ref oid="GLO-0007">inversionista</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0006">
+<rem:name>
+<rem:ref oid="GLO-0006">Portafolio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>La cartera de inversiones o <rem:ref oid="GLO-0006">portafolio</rem:ref> de inversiones, es el conjunto de activos financieros en los cuales se invierte, para el caso de nuestro sistema, estos activos pueden ser acciones o <rem:ref oid="GLO-0009">capital</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0002">
+<rem:name>
+<rem:ref oid="GLO-0002">Repo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es una operación con pacto de recompra, es decir, una entidad financiera vende un activo con un pacto de recompra por un precio determinado dentro de un tiempo determinado. Esta operación también se conoce como reporto, Repurchase Agreement o Sale and Repurchase Agreement.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0011">
+<rem:name>
+<rem:ref oid="GLO-0011">Retiro</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es una operación en la que un <rem:ref oid="GLO-0007">inversionista</rem:ref> le hace un <rem:ref oid="GLO-0011">retiro</rem:ref> de efectivo a un <rem:ref oid="GLO-0006">portafolio</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0016">
+<rem:name>
+<rem:ref oid="GLO-0016">Trader</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Persona que realiza la compra, venta de acciones en la Bolsa de Valores en nombre del <rem:ref oid="GLO-0007">inversionista</rem:ref> que pone la orden.</rem:text>
+</rem:glossaryItem>
+</rem:section>
+</rem:c_requirementsSpecification>
+<rem:d_requirementsSpecification oid = "DRS-0002">
+<rem:name>Documento de Análisis del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:d_requirementsSpecification>
+<rem:defectsSpecification oid = "DFS-0003">
+<rem:name>Registro de Conflictos y Defectos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:defectsSpecification>
+<rem:changeRequestsSpecification oid = "CHS-0004">
+<rem:name>Registro de Peticiones de Cambio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>9</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:changeRequestsSpecification>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0011"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0011"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "NFR-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0002"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0003"  target = "UC-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0006"  target = "UC-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0007"  target = "UC-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0008"  target = "UC-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "NFR-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0011"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "NFR-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "NFR-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0003"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "UC-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "FRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0001"  target = "NFR-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "UC-0017" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0009"  target = "UC-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "NFR-0002"  target = "UC-0013" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0005"  target = "UC-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "UC-0018" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0003"  target = "UC-0015" >
+<rem:isChecked/>
+</rem:trace>
+<rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+</rem:predefinedValueTypes>
+<rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+</rem:predefinedValues>
+</rem:requirementsProject>

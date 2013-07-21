@@ -1,0 +1,46 @@
+- variacionPrecioValor
+- variacionPrecioPorcentaje
+
+- precioMinUltimoDia
+- precioMaxUltimoDia
+
+- precioMin52Semanas
+- precioMax52Semanas
+
+- precioApertura
+
+- volumenNegociadoUltimoDia
+- volumenPromedioNegociado30Dias
+
+- capitalizacionBursatil
+
+
+
+Latest dividend/dividend yield
+
+Latest dividend is dividend per share paid to shareholders in the most recent quarter. Dividend yield is the value of the latest dividend, multiplied by the number of times dividends are typically paid per year, divided by the stock price.
+
+
+-----------------------------------------------------------------------------
+
+EPS: Earnings per share
+The net income over the last four quarters divided by the shares outstanding.
+
+Beneficio por acción
+El ingreso neto en los últimos cuatro trimestres dividido por las acciones en circulación.
+-----------------------------------------------------------------------------
+
+shares outstanding
+The number of shares held by investors and company insiders, excluding dilutive securities such an non-vested RSUs and unexercised options.
+-----------------------------------------------------------------------------
+beta
+The measure of a fund's or a stock's risk in relation to the market or to an alternative benchmark
+------------------------------------------------------------------------------
+Institutional ownership
+The percentage of shares outstanding held by institutional investor such as pension plans
+
+
+
+
+
+
