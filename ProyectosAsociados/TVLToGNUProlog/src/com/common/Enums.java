@@ -1,12 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.common;
 
 /**
- *
- * @author yuxi
+ * @author Hans Parra, Juan Cuartas
  */
 public class Enums {
 
@@ -26,6 +21,10 @@ public class Enums {
         public String toString() {
             return _toString;
         }
+
+        public static TYPE cast(String value) {
+            return TYPE.valueOf(value.toUpperCase());
+        }
     };
 
     public enum SHORT_ID {
@@ -43,6 +42,14 @@ public class Enums {
         @Override
         public String toString() {
             return _toString;
+        }
+
+        public static SHORT_ID cast(String value) {
+            try {
+                return SHORT_ID.valueOf(value.toUpperCase());
+            } catch (Exception e) {
+                return SHORT_ID.ID;
+            }
         }
     };
 
@@ -62,6 +69,10 @@ public class Enums {
         public String toString() {
             return _toString;
         }
+
+        public static CARDINALITY cast(String value) {
+            return CARDINALITY.valueOf(value.toUpperCase());
+        }
     };
 
     public enum HIERARCHICAL_FEATURE {
@@ -78,6 +89,34 @@ public class Enums {
         @Override
         public String toString() {
             return _toString;
+        }
+
+        public static HIERARCHICAL_FEATURE cast(String value) {
+            try {
+                return HIERARCHICAL_FEATURE.valueOf(value.toUpperCase());
+            } catch (Exception e) {
+                return HIERARCHICAL_FEATURE.NONE;
+            }
+        }
+    };
+
+    public enum CHILDREN_ID {
+
+        SELECTEDCHILDREN("selectedchildren"),
+        CHILDREN("children");
+        private String _toString;
+
+        CHILDREN_ID(String toString) {
+            _toString = toString;
+        }
+
+        @Override
+        public String toString() {
+            return _toString;
+        }
+
+        public static CHILDREN_ID cast(String value) {
+            return CHILDREN_ID.valueOf(value.toUpperCase());
         }
     };
 }

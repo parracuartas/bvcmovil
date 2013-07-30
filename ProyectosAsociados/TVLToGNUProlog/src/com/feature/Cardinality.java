@@ -23,7 +23,7 @@ public class Cardinality {
             _initial = expression.substring(expression.indexOf("[") + 1, expression.indexOf(".."));
             _final = expression.substring(expression.indexOf("..") + 2, expression.indexOf("]"));
         } else {
-            _type = CARDINALITY.valueOf(expression.toUpperCase());
+            _type = CARDINALITY.cast(expression);
         }
     }
 

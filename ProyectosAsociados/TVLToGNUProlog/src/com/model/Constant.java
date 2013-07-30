@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.model;
 
 import com.common.Enums.TYPE;
@@ -11,7 +7,7 @@ import com.identifiers.Identifier;
  *
  * @author yuxi
  */
-public class Constant extends Model {
+public class Constant {
 
     private final String CONST = "const";
     private TYPE _type;
